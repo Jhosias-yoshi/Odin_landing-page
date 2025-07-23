@@ -81,15 +81,10 @@ ul{
 .h2-information{
     justify-content: center;
     align-items: center;
-    margin: 1em;
+    margin-top: 150px;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
-}
-
-.main-img{
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .quote{
@@ -101,25 +96,42 @@ ul{
     color: #1f2937;
     font-family: "Open Sans", sans-serif;
     font-weight: 20;
+    text-align: center;
 }
 
 .body-content{
-   /*border: rgb(166, 255, 0) solid 3px;*/
    justify-items: center;
    align-items: center;
+   padding: 75px;
+}
+
+.main-img{
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 120px 0px;
+}
+
+.img{
+    border: solid #3882f6 5px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .body-info{
-    /*border: red solid 3px;*/
     flex-direction: row; 
     background-color: #3882f6;
-    border-radius: 15px;   
+    border-radius: 15px; 
+    height: 190px;
+    width: 650px;
+    color: #f9faf8;
+    align-items: center;
 }
 
 .body-information{
-    /*border: rgb(76, 0, 255) solid 3px;*/
-    margin: 150px; 
-    flex-direction: row;
+    margin: 100px; 
+    flex-direction: column; 
+    justify-content: center;
 }
   
 #sign-up-2{
@@ -135,6 +147,8 @@ ul{
     padding: 7px;
     border: #f9faf8 solid;
     cursor: pointer;
+    flex-direction: column;
+    margin-right: 65px;
 }
 
 a:hover{
@@ -161,4 +175,8 @@ footer{
 
 #sign-up-1:hover, #sign-up-2:hover {
   background-color: #6ba3fc;
+}
+
+figcaption{
+    text-align: center; 
 }
